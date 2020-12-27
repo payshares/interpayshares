@@ -19,7 +19,7 @@ function baseConfig() {
       devtool: "inline-source-map",
       module: {
         loaders: [
-          { test: /\.es6$/, loader: 'node_modules/interstellar-core/node_modules/babel-loader' },
+          { test: /\.es6$/, loader: 'node_modules/interpayshares-core/node_modules/babel-loader' },
         ]
       },
       resolve: {

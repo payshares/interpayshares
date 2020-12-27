@@ -1,24 +1,24 @@
 {
-  "name": "interstellar",
+  "name": "interpayshares",
   "version": "0.0.10",
-  "description": "Interstellar Module System command line tool.",
+  "description": "Interpayshares Module System command line tool.",
   "keywords": [
-    "stellar",
-    "interstellar"
+    "payshares",
+    "interpayshares"
   ],
   "preferGlobal": true,
   "bin": {
-    "interstellar": "./bin/interstellar.js"
+    "interpayshares": "./bin/interpayshares.js"
   },
   "scripts": {
     "test": "gulp test",
     "postversion": "git push && git push --tags"
   },
-  "author": "Stellar Development Foundation <stellar@stellar.org>",
+  "author": "Payshares Development Foundation <payshares@payshares.org>",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "http://github.com/stellar/interstellar.git"
+    "url": "http://github.com/payshares/interpayshares.git"
   },
   "dependencies": {
     "angular-mocks": "^1.3.8",

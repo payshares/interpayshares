@@ -1,26 +1,24 @@
-# `interstellar`
+# `interpayshares`
 
-> ## Interstellar system is DEPRECATED!
+The Interpayshares Module System is an open [ecosystem of modules](https://github.com/payshares/interpayshares/blob/master/docs/learn/module-list.md) that aims to make it easy to build a web application on the Payshares network. This repository (`interpayshares`) contains a command line tool that standardizes the build process for Payshares web applications based on the module configuration.
 
-The Interstellar Module System is an open [ecosystem of modules](https://github.com/stellar/interstellar/blob/master/docs/learn/module-list.md) that aims to make it easy to build a web application on the Stellar network. This repository (`interstellar`) contains a command line tool that standardizes the build process for Stellar web applications based on the module configuration.
+Read the [introductory blog post](https://www.payshares.org/blog/developer-preview-interpayshares-module-system/), [get started](https://github.com/payshares/interpayshares/blob/master/docs/learn/readme.md) or take a look at [interpayshares-client](https://github.com/payshares/interpayshares-client) to see the system in action.
 
-Read the [introductory blog post](https://www.stellar.org/blog/developer-preview-interstellar-module-system/), [get started](https://github.com/stellar/interstellar/blob/master/docs/learn/readme.md) or take a look at [interstellar-client](https://github.com/stellar/interstellar-client) to see the system in action.
-
-![overview](https://www.stellar.org/wp-content/uploads/2015/06/interstellar-overview.png)
+![overview](https://www.payshares.org/wp-content/uploads/2015/06/interpayshares-overview.png)
 
 ## Installation
 
 ```bash
-npm install -g interstellar
+npm install -g interpayshares
 ```
 
 ## Commands
 
 Run these commands in your project home directory:
-* `interstellar build` - Builds a project
-* `interstellar develop` - Builds & watch project
-* `interstellar clean` - Remove temporary files and builds
-* `interstellar stroopy` - Prints [Stroopy](https://www.stellar.org/stories/adventures-in-galactic-consensus-chapter-1/)
+* `interpayshares build` - Builds a project
+* `interpayshares develop` - Builds & watch project
+* `interpayshares clean` - Remove temporary files and builds
+* `interpayshares stroopy` - Prints [Stroopy](https://www.payshares.org/stories/adventures-in-galactic-consensus-chapter-1/)
 
 ## Guides
 

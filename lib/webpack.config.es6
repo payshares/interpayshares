@@ -20,12 +20,12 @@ var baseConfig = {
     root: [process.cwd()],
     extensions: ["", ".js", ".es6", ".json"],
     modulesDirectories: [
-      "node_modules/interstellar-core/node_modules",
+      "node_modules/interpayshares-core/node_modules",
       "node_modules"
     ],
     fallback: [
       path.join(process.cwd(), "node_modules"),
-      path.join(process.cwd(), "node_modules", "interstellar-core", "node_modules")
+      path.join(process.cwd(), "node_modules", "interpayshares-core", "node_modules")
     ]
   },
   resolveLoader: {
@@ -82,7 +82,7 @@ var configForApp = function() {
     entry: {
       main: "./main.es6",
       head: "./head.es6",
-      vendor: ["interstellar-core"]
+      vendor: ["interpayshares-core"]
     },
     output: {
       path: './.tmp/webpacked'
@@ -127,7 +127,7 @@ function makeConfig(env, options) {
   merge(result, options || {});
 
   result.plugins.push(new webpack.DefinePlugin({
-    INTERSTELLAR_ENV: JSON.stringify(env)
+    INTERPAYSHARES_ENV: JSON.stringify(env)
   }));
 
   return result;

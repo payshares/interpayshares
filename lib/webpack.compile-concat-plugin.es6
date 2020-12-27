@@ -35,7 +35,7 @@ CompileConcatPlugin.prototype.apply = function(compiler) {
       includePaths: [
         path.join(process.cwd(), "styles"),
         path.join(process.cwd(), "node_modules"),
-        path.join(process.cwd(), "node_modules", "interstellar-core", "node_modules")
+        path.join(process.cwd(), "node_modules", "interpayshares-core", "node_modules")
       ]
     });
 
