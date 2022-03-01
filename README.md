@@ -4,7 +4,7 @@ The Interpayshares Module System is an open [ecosystem of modules](https://githu
 
 Read the [introductory blog post](https://www.payshares.org/blog/developer-preview-interpayshares-module-system/), [get started](https://github.com/payshares/interpayshares/blob/master/docs/learn/readme.md) or take a look at [interpayshares-client](https://github.com/payshares/interpayshares-client) to see the system in action.
 
-![overview](https://www.payshares.org/wp-content/uploads/2015/06/interpayshares-overview.png)
+# Overview
 
 ## Installation
 
